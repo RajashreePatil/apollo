@@ -9,6 +9,9 @@ import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 
+
+
+
 @Configuration
 @ComponentScan(excludeFilters = {@Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
         LocalAdminServiceApplication.class, AdminServiceApplication.class,
